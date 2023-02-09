@@ -1,0 +1,60 @@
+:root {
+    --text-color: #d6d6c2;
+    --accent-color: #b8b894;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Geneva, Tahoma, sans-serif;
+    letter-spacing: .1rem;
+    line-height: .01rem;
+}
+
+.card {
+    width: 400px;
+    margin: 10px auto;
+    padding: 17px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: var(--text-color);
+    background: rgb(0,212,255);
+    background: linear-gradient(-15deg, rgba(0,212,255,1) 13%, 
+    rgba(2,0,36,1) 65%, rgba(16,16,94,1) 83%);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-left: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-left: .8em;
+    text-shadow: 1px 3px 15px hsla(240, 100%, 100%, 1);
+}
+
+.avatar {
+    width: 130px;
+    border-right: 3px solid var(--accent-color);
+    border-top: 3px solid var(--accent-color);
+    padding-right: .01em;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
+
+.link {
+    padding-top: .5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.link:hover {
+    color: #ffc61a;
+    filter: blur(1px);
+    transition: all 0.5s;
+}
+
